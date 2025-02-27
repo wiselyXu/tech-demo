@@ -1,0 +1,21 @@
+#server:
+#  port: 8010
+#  servlet:
+#    context-path: /demo
+spring:
+  security:
+    user:
+      name: admin
+      password: 123456
+
+  datasource:
+    url: jdbc:mysql://192.168.186.184:3306/security?useSSL=false&characterEncoding=utf8&allowPublicKeyRetrieval=true&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: YioK324!
+
+
+    mybatis-plus:
+      configuration:
+        log:
+          impl: org.apache.ibatis.logging.stdout.StdOutImpl
